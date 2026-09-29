@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F1512"/>
+      <stop offset="100%" stop-color="#140E0C"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#p3Grad)"/>
+  
+  <!-- Terminal Header -->
+  <rect x="0" y="0" width="600" height="38" fill="#0D0807"/>
+  <circle cx="25" cy="19" r="5" fill="#fe932c"/>
+  <circle cx="42" cy="19" r="5" fill="#904d00"/>
+  <circle cx="59" cy="19" r="5" fill="#471506"/>
+  <text x="300" y="24" font-family="'IBM Plex Mono', monospace" font-size="11" fill="#EDE5D0" opacity="0.7" text-anchor="middle">terminal_ui_engine.c</text>
+
+  <!-- Interactive Terminal output -->
+  <text x="35" y="80" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#EDE5D0" opacity="0.6">$ ./build_matrix --arch=riscv --threads=4</text>
+  <text x="35" y="110" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#fe932c">[OK] Memory mapped: 0x7FFF82A0</text>
+  <text x="35" y="140" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#EDE5D0">Compiling C source with zero external dependencies...</text>
+  
+  <!-- Box Model graphic demo in terminal -->
+  <rect x="35" y="175" width="530" height="130" fill="#241815" stroke="#904d00" stroke-width="1.5" stroke-dasharray="6 4" rx="4"/>
+  <rect x="75" y="195" width="450" height="90" fill="#33211C" stroke="#fe932c" stroke-width="1.5" rx="4"/>
+  <rect x="120" y="215" width="360" height="50" fill="#471506" stroke="#EDE5D0" stroke-width="1.5" rx="4"/>
+  <text x="300" y="245" font-family="'IBM Plex Mono', monospace" font-size="12" fill="#F5F0E8" font-weight="600" text-anchor="middle">CONTENT BOX [ 360 x 50 ]</text>
+  <text x="85" y="210" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#fe932c">PADDING: 20px</text>
+  <text x="45" y="190" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#EDE5D0" opacity="0.6">BORDER: 2px solid</text>
+</svg>

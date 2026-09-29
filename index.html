@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sumit Pandey — Computer Science Student at Scaler School of Technology. Learning Web Development, Python, C, Java, Mathematics & Engineering.">
+    <meta name="author" content="Sumit Pandey">
+    <meta name="theme-color" content="#F5F0E8">
+
+    <title>Sumit Pandey — CS Student & Developer | Scaler School of Technology</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Google Fonts: Syne (Display), IBM Plex Mono (Code/Badges), DM Sans (Clean Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+
+    <!-- Custom Core Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Pure CSS Mobile Navigation Toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu">
+
+    <!-- NAVIGATION BAR -->
+    <header class="site-nav">
+        <div class="nav-bar">
+            <!-- Logo / System Monogram -->
+            <a href="#home" class="nav-logo" aria-label="Sumit Pandey Portfolio Home">
+                SUMIT<em>.portfolio</em>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- Resume / CV button -->
+                    <li>
+                        <a href="#contact" class="btn-primary" style="padding: 8px 16px; font-size: 11px;">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Pure CSS Hamburger Button Trigger -->
+            <label for="nav-toggle" class="hamburger-label" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </header>
+
+    <!-- Mobile Dropdown Navigation Menu (Pure CSS toggle via #nav-toggle:checked) -->
+    <div class="mobile-menu" aria-label="Mobile Navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+918957533124" class="btn-primary" style="margin-top: 10px;">
+            <i class="ri-phone-line"></i> +91 8957533124
+        </a>
+    </div>
+
+    <main>
+        <!-- SECTION 1: HERO -->
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="hero-inner">
+
+                    <!-- Hero Text Content -->
+                    <div class="hero-content">
+
+                        <!-- Availability & System Status Indicator -->
+                        <div class="status-pill">
+                            <span class="status-dot"></span>
+                            <span>Available to Learn &amp; Build</span>
+                        </div>
+
+                        <!-- Main Heading -->
+                        <h1 class="hero-name">
+                            Hi,<br>I'm<br>Sumit.
+                        </h1>
+
+                        <!-- Subtitle / Role -->
+                        <div class="hero-role">
+                            CS Student · Scaler School of Technology
+                        </div>
+
+                        <!-- Description -->
+                        <p class="hero-desc">
+                            I am an engineering, mathematics, and technology enthusiast currently pursuing my CS degree
+                            at Scaler School of Technology. I am actively learning web development and programming
+                            fundamentals in <strong>Python</strong>, <strong>C</strong>, and <strong>Java</strong>,
+                            building clean things from first principles.
+                        </p>
+
+                        <!-- Hero Action Buttons -->
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn-primary">
+                                View My Work <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="#contact" class="btn-outline">
+                                Get in Touch
+                            </a>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="hero-socials">
+
+                            <a href="https://github.com/Sumit56576" target="_blank" rel="noopener noreferrer"
+                                class="social-icon-btn" aria-label="GitHub Profile">
+                                <i class="ri-github-fill"></i>
+                            </a>
+
+
+
+                            <!-- X / TWITTER LINK -->
+                            <a href="https://x.com/sumit098i" target="_blank" rel="noopener noreferrer"
+                                class="social-icon-btn" aria-label="X / Twitter Profile">
+                                <i class="ri-twitter-x-fill"></i>
+                            </a>
+
+                            <!-- INSTAGRAM LINK -->
+                            <a href="https://www.instagram.com/4.sum.it" target="_blank" rel="noopener noreferrer"
+                                class="social-icon-btn" aria-label="Instagram Profile">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+
+                            <!-- EMAIL DIRECT LINK -->
+                            <a href="mailto:pandeysumit0709@gmail.com" class="social-icon-btn" aria-label="Send Email">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Hero Profile Image Card -->
+                    <div class="hero-image-wrap">
+                        <div class="hero-frame">
+
+                            <img src="images/avatar.svg" alt="Sumit Pandey — Developer Monogram Badge" width="400"
+                                height="480">
+
+                            <div class="hero-frame-caption">
+                                <span>Sumit Pandey</span>
+                                <span>· Bengaluru</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- SECTION 2: ABOUT ME -->
+        <section class="about-section" id="about">
+            <div class="container">
+
+                <span class="section-tag">// 01. Background</span>
+                <h2 class="section-title">A bit about<br>who I am.</h2>
+
+                <div class="about-grid">
+
+                    <!-- Primary About Card -->
+                    <div class="about-card">
+                        <p>
+                            I'm <strong>Sumit Pandey</strong>, a Computer Science undergraduate at <strong>Scaler School
+                                of Technology</strong>. I have an enduring curiosity for technology, computational
+                            mathematics, and engineering mechanics.
+                        </p>
+                        <p>
+                            I am currently focusing on understanding the foundations of web development—mastering
+                            semantic HTML structure, responsive CSS layout systems (Flexbox and Grid), and clean UI
+                            architecture—before introducing heavier frameworks.
+                        </p>
+                        <p>
+                            Parallel to web technologies, I am actively building my computer science foundation with
+                            <strong>Python</strong>, <strong>C</strong>, and <strong>Java</strong>. While I am early in
+                            my development journey with no prior corporate experience, I dedicate my days to learning by
+                            doing, writing code, and solving challenging engineering problems.
+                        </p>
+                    </div>
+
+                    <!-- About Sidebar: Key Metrics & Focus Cards -->
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">Scaler</div>
+                            <div class="stat-label">School of Technology · Student</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Languages · Python, C, Java</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">WebDev 101</div>
+                            <div class="stat-label">HTML5 &amp; CSS</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">Math &amp; Tech</div>
+                            <div class="stat-label">Passionate Problem Solver</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 3: SKILLS -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+
+                <span class="section-tag">// 02. Technical Toolkit</span>
+                <h2 class="section-title">What I work with.</h2>
+
+                <!-- Skills Matrix (CSS Grid) -->
+                <div class="skills-matrix">
+
+                    <!-- Column 1: Web Development -->
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <span>Web Foundations</span>
+                            <i class="ri-html5-line"></i>
+                        </div>
+                        <ul class="skill-items-list">
+                            <li>Semantic HTML5</li>
+                            <li>CSS3 Architecture</li>
+                            <li>Flexbox Layouts</li>
+                            <li>CSS Grid Systems</li>
+                            <li>Responsive Design</li>
+                            <li>Media Queries</li>
+                            <li>CSS Animations</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2: Programming Languages -->
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <span>Languages</span>
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <ul class="skill-items-list">
+                            <li>Python</li>
+                            <li>C Language</li>
+                            <li>Java</li>
+                            <li>Object-Oriented Logic</li>
+                            <li>Control Flow &amp; Loops</li>
+                            <li>Data Structures Basics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Engineering & Math -->
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <span>Engineering &amp; Math</span>
+                            <i class="ri-function-line"></i>
+                        </div>
+                        <ul class="skill-items-list">
+                            <li>Computational Logic</li>
+                            <li>Discrete Mathematics</li>
+                            <li>Algorithmic Thinking</li>
+                            <li>Number Theory Basics</li>
+                            <li>Problem Decomposition</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Developer Tools -->
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <span>Tools &amp; Workflow</span>
+                            <i class="ri-tools-line"></i>
+                        </div>
+                        <ul class="skill-items-list">
+                            <li>GitHub Repositories</li>
+                            <li>VS Code</li>
+                            <li>Command Line Basics</li>
+                            <li>Chrome DevTools</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Currently Exploring Banner -->
+                <div class="skills-exploring-bar">
+                    <div class="exploring-title">Currently Exploring &amp; Learning</div>
+                    <div class="exploring-pills">
+                        <span class="explore-pill">Full Web Development Fundamentals</span>
+                        <span class="explore-pill">Advanced CSS Custom Properties</span>
+                        <span class="explore-pill">Low-Level System Memory in C</span>
+                        <span class="explore-pill">Object-Oriented Design in Java</span>
+                        <span class="explore-pill">Python Automation &amp; Scripting</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 4: PROJECTS -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+
+                <span class="section-tag">// 03. Selected Works</span>
+                <h2 class="section-title">Things I've built.</h2>
+
+                <p class="hero-desc" style="margin-top: -20px; margin-bottom: 36px; max-width: 620px;">
+                    Here are foundational projects showcasing web engineering, algorithmic logic, and programming
+                    concepts. Each card is structured so you can easily customize details and links.
+                </p>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1: Algorithmic Math Engine -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <span>PROCESS_0x01</span>
+                            <span class="project-status-dot">● ACTIVE</span>
+                        </div>
+
+                        <div class="project-card-image">
+                            <img src="images/project-1.svg" alt="Algorithmic Math Engine Code and Complexity Graph"
+                                width="600" height="340">
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Algorithmic Math Engine</h3>
+                            <p class="project-card-desc">
+                                A computational exploration of mathematical logic, recurrences, and prime factorization
+                                algorithms built using Python and C. Designed to benchmark time complexity O(log n) and
+                                explore numerical problem-solving.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">C</span>
+                                <span class="tech-tag">Algorithms</span>
+                                <span class="tech-tag">Mathematics</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- Replace # with your live project link or GitHub repo -->
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn primary">
+                                    View Source <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                                <a href="#contact" class="project-link-btn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: Responsive Web Layout Lab -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <span>PROCESS_0x02</span>
+                            <span class="project-status-dot">● COMPLETE</span>
+                        </div>
+
+                        <div class="project-card-image">
+                            <img src="images/project-2.svg" alt="Responsive Web Layout Blueprint" width="600"
+                                height="340">
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Responsive UI &amp; Grid Lab</h3>
+                            <p class="project-card-desc">
+                                A multi-layout responsive web interface engineered purely with HTML5 and CSS.
+                                Demonstrates nested CSS Grid templates, flexible Flexbox components, fluid clamp
+                                typography, and custom media queries.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Flexbox</span>
+                                <span class="tech-tag">CSS Grid</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- Replace # with your live project link or GitHub repo -->
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn primary">
+                                    View Source <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                                <a href="#contact" class="project-link-btn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: CSS Box Model & Terminal Studio -->
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <span>PROCESS_0x03</span>
+                            <span class="project-status-dot">● COMPLETE</span>
+                        </div>
+
+                        <div class="project-card-image">
+                            <img src="images/project-3.svg" alt="Terminal UI and Box Model Demonstration" width="600"
+                                height="340">
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">CSS Terminal &amp; Box-Model Studio</h3>
+                            <p class="project-card-desc">
+                                An interactive developer-themed demonstration exploring the CSS Box Model (margin,
+                                padding, border), keyframe pulse animations, custom properties, and pseudo-elements with
+                                zero external dependencies.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tech-tag">CSS Architecture</span>
+                                <span class="tech-tag">Keyframes</span>
+                                <span class="tech-tag">Box Model</span>
+                                <span class="tech-tag">Transforms</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- Replace # with your live project link or GitHub repo -->
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn primary">
+                                    View Source <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                                <a href="#contact" class="project-link-btn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!--SECTION 5: EDUCATION & JOURNEY -->
+        <section class="education-section" id="education">
+            <div class="container">
+
+                <span class="section-tag">// 04. Academic Path</span>
+                <h2 class="section-title">Education &amp;<br>Learning</h2>
+
+                <div class="timeline">
+
+                    <!-- Education Item: Scaler School of Technology -->
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-period">2026 — PRESENT</span>
+                            <span class="timeline-institution">Scaler School of Technology</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Undergraduate in Computer Science &amp; Technology</h3>
+                            <p class="timeline-desc">
+                                Engaged in an intensive, industry-aligned software engineering and computer science
+                                curriculum. Rigorous coursework spanning foundational computer programming (Python, C,
+                                Java), computational mathematics, data structures, and hands-on web development
+                                principles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Learning Journey Item -->
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-period">ONGOING JOURNEY</span>
+                            <span class="timeline-institution">Independent Builder</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Self-Directed Engineering &amp; Problem Solving</h3>
+                            <p class="timeline-desc">
+                                Dedicated to daily programming practice, implementing mathematical algorithms from
+                                scratch, exploring how browser rendering engines parse HTML and CSS, and systematically
+                                mastering the core fundamentals of software engineering.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- SECTION 6: CONTACT -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+
+                <span class="section-tag">// 05. Let's Connect</span>
+
+                <div class="contact-layout">
+
+                    <!-- Contact Left: Description & Direct Channels -->
+                    <div class="contact-info">
+                        <h2 class="section-title" style="margin-bottom: 16px;">
+                            Let's build<br>something together.
+                        </h2>
+
+                        <p class="contact-desc">
+                            Have an idea, project opportunity, or want to discuss programming, mathematics, or web
+                            technologies? Reach out through any of the channels below or send a message.
+                        </p>
+
+                        <div class="contact-channels">
+
+                            <!-- Direct Phone Call Link -->
+                            <a href="tel:+918957533124" class="channel-btn">
+                                <span class="channel-label">
+                                    <i class="ri-phone-line"></i>
+                                    <span>Call: +91 8957533124</span>
+                                </span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+
+                            <!-- Direct Email Link -->
+                            <a href="mailto:pandeysumit0709@gmail.com" class="channel-btn">
+                                <span class="channel-label">
+                                    <i class="ri-mail-line"></i>
+                                    <span>Email: pandeysumit0709@gmail.com</span>
+                                </span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+
+                            <!-- GitHub Profile Link -->
+                            <a href="https://github.com/Sumit56576" target="_blank" rel="noopener noreferrer"
+                                class="channel-btn">
+                                <span class="channel-label">
+                                    <i class="ri-github-fill"></i>
+                                    <span>GitHub: @SumitPandey</span>
+                                </span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+
+
+                            <!-- X / Twitter Profile Link -->
+                            <a href="https://x.com/sumit098i" target="_blank" rel="noopener noreferrer"
+                                class="channel-btn">
+                                <span class="channel-label">
+                                    <i class="ri-twitter-x-fill"></i>
+                                    <span>X / Twitter</span>
+                                </span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+
+                            <!-- Instagram Profile Link -->
+                            <a href="https://www.instagram.com/4.sum.it" target="_blank" rel="noopener noreferrer"
+                                class="channel-btn">
+                                <span class="channel-label">
+                                    <i class="ri-instagram-fill"></i>
+                                    <span>Instagram</span>
+                                </span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Contact Right: HTML Form-->
+                    <div class="contact-form-card">
+                        <h3 class="contact-form-title">Send a Direct Message</h3>
+
+                        <form class="contact-form" action="mailto:pandeysumit0709@gmail.com" method="POST"
+                            enctype="text/plain">
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-name" class="form-label">Your Name</label>
+                                    <input type="text" id="contact-name" name="name" class="form-input"
+                                        placeholder="e.g. Alex Sharma" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact-email" class="form-label">Email Address</label>
+                                    <input type="email" id="contact-email" name="email" class="form-input"
+                                        placeholder="you@domain.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-phone" class="form-label">Phone Number (Optional)</label>
+                                <input type="tel" id="contact-phone" name="phone" class="form-input"
+                                    placeholder="e.g. +91 9876543210">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject" class="form-label">Subject</label>
+                                <input type="text" id="contact-subject" name="subject" class="form-input"
+                                    placeholder="What would you like to build or discuss?">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message</label>
+                                <textarea id="contact-message" name="message" class="form-input"
+                                    placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary form-submit-btn">
+                                Send Message <i class="ri-send-plane-fill"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div>
+
+                    <p class="footer-copy">
+                        &copy; 2026 <strong>Sumit Pandey</strong> · Scaler School of Technology.<br>
+
+                    </p>
+                </div>
+
+                <nav class="footer-nav" aria-label="Footer Navigation">
+                    <a href="#home">Top ↑</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

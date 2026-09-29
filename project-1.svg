@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1210"/>
+      <stop offset="100%" stop-color="#2D1B17"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#p1Grad)"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="38" fill="#120c0a"/>
+  <circle cx="25" cy="19" r="5" fill="#fe932c"/>
+  <circle cx="42" cy="19" r="5" fill="#904d00"/>
+  <circle cx="59" cy="19" r="5" fill="#471506"/>
+  <text x="580" y="24" font-family="'IBM Plex Mono', monospace" font-size="11" fill="#EDE5D0" opacity="0.6" text-anchor="end">math_engine.py</text>
+  
+  <!-- Terminal / Code view -->
+  <text x="35" y="80" font-family="'IBM Plex Mono', monospace" font-size="14" fill="#fe932c">&gt; def calculate_complexity(n, algorithm="euclid"):</text>
+  <text x="55" y="110" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#EDE5D0" opacity="0.8"># Matrix computation &amp; prime factorization</text>
+  <text x="55" y="140" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#EDE5D0">steps = solve_recurrence(n, depth=O_log_n)</text>
+  <text x="55" y="170" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#fe932c">return {"status": "OPTIMAL", "cycles": steps}</text>
+
+  <!-- Visual Blueprint graph -->
+  <rect x="35" y="210" width="530" height="95" fill="#241714" stroke="#471506" stroke-width="1.5" rx="4"/>
+  <path d="M 50 280 Q 150 230 250 250 T 450 220 T 550 270" fill="none" stroke="#fe932c" stroke-width="2"/>
+  <circle cx="250" cy="250" r="4" fill="#fe932c"/>
+  <circle cx="450" cy="220" r="4" fill="#fe932c"/>
+  <text x="55" y="235" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#fe932c" letter-spacing="1">ALGORITHMIC COMPLEXITY O(log n)</text>
+</svg>

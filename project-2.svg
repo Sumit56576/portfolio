@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE5D0"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <pattern id="gridP2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#471506" stroke-width="0.5" stroke-opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#p2Grad)"/>
+  <rect width="100%" height="100%" fill="url(#gridP2)"/>
+  
+  <!-- Browser Header -->
+  <rect x="0" y="0" width="600" height="38" fill="#471506"/>
+  <circle cx="25" cy="19" r="5" fill="#fe932c"/>
+  <circle cx="42" cy="19" r="5" fill="#EDE5D0"/>
+  <circle cx="59" cy="19" r="5" fill="#904d00"/>
+  <text x="300" y="24" font-family="'IBM Plex Mono', monospace" font-size="11" fill="#F5F0E8" text-anchor="middle">responsive-layout.css</text>
+
+  <!-- Wireframe Blueprint Elements -->
+  <!-- Sidebar -->
+  <rect x="35" y="60" width="130" height="245" fill="#FFFCF9" stroke="#471506" stroke-width="2"/>
+  <rect x="50" y="80" width="100" height="14" fill="#EDE5D0"/>
+  <rect x="50" y="110" width="80" height="8" fill="#471506" opacity="0.3"/>
+  <rect x="50" y="130" width="70" height="8" fill="#471506" opacity="0.3"/>
+  <rect x="50" y="150" width="90" height="8" fill="#471506" opacity="0.3"/>
+  <text x="50" y="270" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#904d00">&lt;aside&gt;</text>
+
+  <!-- Main Hero Area -->
+  <rect x="180" y="60" width="385" height="110" fill="#FFFCF9" stroke="#471506" stroke-width="2"/>
+  <rect x="200" y="85" width="220" height="18" fill="#471506"/>
+  <rect x="200" y="115" width="160" height="10" fill="#904d00" opacity="0.7"/>
+  <text x="540" y="80" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#904d00" text-anchor="end">display: grid</text>
+
+  <!-- Sub Grid Cards -->
+  <rect x="180" y="185" width="185" height="120" fill="#FFFCF9" stroke="#471506" stroke-width="2"/>
+  <text x="195" y="210" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#471506">flex: 1 1 50%</text>
+  <rect x="195" y="230" width="155" height="50" fill="#EDE5D0" opacity="0.6"/>
+
+  <rect x="380" y="185" width="185" height="120" fill="#FFFCF9" stroke="#471506" stroke-width="2"/>
+  <text x="395" y="210" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#471506">@media (max-width)</text>
+  <rect x="395" y="230" width="155" height="50" fill="#EDE5D0" opacity="0.6"/>
+</svg>
